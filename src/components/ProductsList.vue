@@ -164,4 +164,23 @@ button {
   outline: none;
   border: 1px solid #005c67;
 }
+@media (max-width: 768px) {
+  .product-list {
+    padding: 0;
+  }
+  .product-grid {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  .product-item {
+    flex: 0 0 40%;
+  }
+  .product-img img {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+  }
+}
 </style>
